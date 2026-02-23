@@ -1,0 +1,21 @@
+text=input("Enter a sentence: ")
+chars_with_space=len(text)
+chars_without_space=len(text.replace(" ", ""))
+words=text.split()
+total_words=len(words)
+upper=text.upper()
+lower=text.lower()
+title=text.title()
+first_word=words[0]
+last_word=words[-1]
+reverse=text[::-1]
+print("Original:",text)
+print("Characters (with spaces):",chars_with_space)
+print("Characters (without spaces):",chars_without_space)
+print("Words:",total_words)
+print("UPPERCASE:",upper)
+print("lowercase:",lower)
+print("Title Case:",title)
+print("First word:",first_word)
+print("Last word:",last_word)
+print("Reversed:",reverse)
